@@ -24,7 +24,7 @@ function App() {
             <div className=' w-44 h-8 bg-[url("./assets/logo.svg")] bg-cover bg-no-repeat'></div>
             <FaBars className=" w-6 h-4 text-white cursor-pointer lg:hidden" onClick={()=>setToggle(!toggle)}/>
             
-            <div className=' sm:hidden lg:flex flex-row items-center justify-center gap-8'>
+            <div className='hidden lg:flex flex-row items-center justify-center gap-8'>
               <div className='cursor-pointer text-xl font-semibold text-[#FFFFFF]'>About</div>
               <div className='cursor-pointer text-xl font-semibold text-[#FFFFFF]'>Services</div>
               <div className='cursor-pointer text-xl font-semibold text-[#FFFFFF]'>Projcets</div>
@@ -167,19 +167,19 @@ function App() {
       </div>  
 
       <div className=' w-96 flex flex-wrap lg:w-full'>
-        <div className=' w-44 h-44 
+        <div className=' w-[192px] h-[188px]
         bg-[url("./assets/mobile/image-gallery-milkbottles.jpg")] bg-cover lg:w-1/4 lg:h-[450px]'></div>
-        <div className=' w-44 h-44 
+        <div className='w-[192px] h-[188px] 
         bg-[url("./assets/mobile/image-gallery-orange.jpg")] bg-cover lg:w-1/4 lg:h-[450px]'></div>
-        <div className=' w-44 h-44 
+        <div className=' w-[192px] h-[188px] 
         bg-[url("./assets/mobile/image-gallery-cone.jpg")] bg-cover lg:w-1/4 lg:h-[450px]'></div>
-        <div className=' w-44 h-44 
+        <div className=' w-[192px] h-[188px] 
         bg-[url("./assets/mobile/image-gallery-sugar-cubes.jpg")] bg-cover lg:w-1/4 lg:h-[450px]'></div>
       </div>
 
       {/* FOOTER */}
 
-      <div className='w-96 h-96 bg-[#90D4C6] overflow-hidden bg-cover lg:w-full 
+      <div className='w-96 h-96 bg-[#90D4C6] lg:w-full 
         flex flex-col justify-center items-center gap-10
       '>
          <div className=' w-44 h-8 bg-[url("./assets/logo.svg")] bg-cover bg-no-repeat cursor-pointer'></div>
