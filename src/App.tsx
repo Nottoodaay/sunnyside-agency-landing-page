@@ -46,13 +46,13 @@ function App() {
 
       {/* BODY */}
       
-      <div className=' lg:w-full lg:justify-between lg:flex lg:flex-row-reverse items-center '>
+      <div className=' lg:w-full lg:justify-between lg:flex lg:flex-row-reverse lg:items-center items-center '>
         <div className=' w-96 h-[310px] 
         bg-[url("./assets/desktop/image-transform.jpg")] bg-cover bg-no-repeat
-        lg:w-[720px] lg:h-[600px]
+        lg:w-1/2 lg:h-[600px]
         '></div>
 
-        <div className='w-96 h-[310px] flex flex-col items-center justify-between gap-7'>
+        <div className='w-96 h-[310px] lg:ml-28 flex flex-col items-center justify-between gap-7'> 
           <h2 className=' text-center font-bold text-3xl'>TRANSFORM YOUR <br/> BRAND </h2>
 
           <p className=' text-center'>We are a full-service creative agency specializing in
@@ -66,10 +66,10 @@ function App() {
       <div className='lg:w-full lg:justify-between lg:flex lg:flex-row-reverse items-center'>
         <div className=' w-96 h-[310px] 
         bg-[url("./assets/mobile/image-stand-out.jpg")] bg-cover bg-no-repeat
-        lg:w-[720px] lg:h-[600px]
+        lg:w-1/2 lg:h-[600px]
         '></div>
 
-        <div className='w-96 h-[310px] flex flex-col items-center justify-between gap-7'>
+        <div className='w-96 h-[310px] lg:ml-28 flex flex-col items-center justify-between gap-7'>
           <h2 className=' text-center font-bold text-3xl uppercase'>Stand out to the <br/> right audience</h2>
 
           <p className=' text-center'>
@@ -185,9 +185,9 @@ function App() {
          <div className=' w-44 h-8 bg-[url("./assets/logo.svg")] bg-cover bg-no-repeat cursor-pointer'></div>
         
         <div className=' flex flex-row gap-12'>
-          <h2 className=' text-lg font-semibold text-[#458D7E] hover:text-[#FFFFFF]'>About</h2>
-          <h2 className=' text-lg font-semibold text-[#458D7E] hover:text-[#FFFFFF]'>Services</h2>
-          <h2 className=' text-lg font-semibold text-[#458D7E] hover:text-[#FFFFFF]'>Projects</h2>
+          <h2 className=' cursor-pointer text-lg font-semibold text-[#458D7E] hover:text-[#FFFFFF]'>About</h2>
+          <h2 className=' cursor-pointer text-lg font-semibold text-[#458D7E] hover:text-[#FFFFFF]'>Services</h2>
+          <h2 className=' cursor-pointer text-lg font-semibold text-[#458D7E] hover:text-[#FFFFFF]'>Projects</h2>
         </div>
 
         <div className=' flex flex-row gap-7'>
